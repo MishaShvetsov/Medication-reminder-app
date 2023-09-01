@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "11308160929",
+    "project_id": "medfirebase-353d4",
+    "storage_bucket": "medfirebase-353d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11308160929:android:7aeef450800a0694ac1de0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11308160929-n8sv3i9gd59odnf4blk9s50v91tjbkg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0FFeEDg9bBmjl-KhU6VXY_bkHUIVudw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11308160929-n8sv3i9gd59odnf4blk9s50v91tjbkg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

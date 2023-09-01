@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="added_med">Med has been added successfully</string>
+    <string name="error">%1$s</string>
+
+    <string-array name="period_options">
+        <item>раз(а) в час</item>
+        <item>раз(а) в день</item>
+        <item>раз(а) в неделю</item>
+        <item>раз(а) в месяц</item>
+    </string-array>
+</resources>

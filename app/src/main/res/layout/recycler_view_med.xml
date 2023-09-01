@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:padding="12dp"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="HELLLLLLLOOOOO"
+            />
+
+
+        <TextView
+            android:id="@+id/text_view_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="07070700"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/text_view_name"
+            />
+        <TextView
+            android:id="@+id/text_view_med_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="Количество лекарства: "
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/text_view_name"
+            />
+
+
+        <TextView
+            android:id="@+id/text_view_med_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="07070700"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/text_view_name"
+            />
+        <TextView
+            android:id="@+id/text_view_med_data_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="Дата начала приёма: "
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/text_view_name"
+            />
+
+
+        <TextView
+            android:id="@+id/text_view_med_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="07070700"
+            android:layout_marginTop="74dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/text_view_name"
+            />
+
+        <TextView
+            android:id="@+id/text_view_med_spin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="07070700"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="74dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/text_view_name"
+            />
+
+
+
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#D5D4D4"/>
+
+
+</LinearLayout>
